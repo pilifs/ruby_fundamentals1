@@ -9,3 +9,7 @@ value_one = gets.chomp.to_i
 puts "Enter second number"
 value_two = gets.chomp.to_i
 puts "Your two numbers added together equal #{value_one + value_two}"
+
+# Output result using string interpolation
+
+puts "The result of 45628 * 7839 is equal to #{45628 * 7839}"
