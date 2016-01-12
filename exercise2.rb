@@ -13,3 +13,7 @@ puts "Your two numbers added together equal #{value_one + value_two}"
 # Output result using string interpolation
 
 puts "The result of 45628 * 7839 is equal to #{45628 * 7839}"
+
+# Finding value for expression (should be true)
+
+puts (10 < 20 && 30 < 20) || !(10 == 11)
